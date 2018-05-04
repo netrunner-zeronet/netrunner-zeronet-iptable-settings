@@ -8,7 +8,6 @@ Homepage: https://github.com/netrunner-zeronet/netrunner-zeronet-desktop-setting
 
 Package: netrunner-zeronet-iptable-settings
 Architecture: any
-Replaces: iptable
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: netrunner iptable specific settings
  This package contains settings that are specific to iptable for Netrunner
