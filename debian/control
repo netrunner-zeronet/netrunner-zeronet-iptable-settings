@@ -1,0 +1,14 @@
+Source: netrunner-zeronet-iptable-settings
+Section: unknown
+Priority: optional
+Maintainer: Leszek Lesner <leszek@zevenos.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/netrunner-zeronet/netrunner-zeronet-desktop-settings
+
+Package: netrunner-zeronet-iptable-settings
+Architecture: any
+Replaces: iptable
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: netrunner iptable specific settings
+ This package contains settings that are specific to iptable for Netrunner
